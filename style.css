@@ -129,6 +129,7 @@ body {
     margin: auto;
     border-radius: 100px;
     box-shadow: 10px 2px 10px #8673da;
+    margin-bottom: 2.4rem;
   }
 
   section .header {
@@ -152,6 +153,7 @@ body {
     border: 2px solid transparent;
     border-radius: 15px;
     transition: all 0.3s ease;
+    margin-bottom: 5.89rem;
   }
 
   .techStack .card:hover {
@@ -167,7 +169,7 @@ body {
   }
 
   .projects {
-    margin-top: 4rem;
+    margin-top: 1.6rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
