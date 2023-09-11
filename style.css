@@ -232,8 +232,8 @@ body {
     font-size: 0.8rem;
     text-align: center;
   }
-
-  @media (width < 900px) {
+  /* Media Query for screens with a maximum width of 900px */
+  @media (max-width: 900px) {
     .nav-links {
       display: none;
     }
@@ -249,12 +249,10 @@ body {
     .projects {
       grid-template-columns: repeat(2, 1fr);
     }
-    footer {
-      grid-template-columns: 1fr 200px;
-    }
   }
 
-  @media (width < 600px) {
+  /* Media Query for screens with a maximum width of 600px */
+  @media (max-width: 600px) {
     header .image::before {
       display: none;
     }
@@ -265,10 +263,6 @@ body {
 
     .projects {
       grid-template-columns: repeat(1, 1fr);
-    }
-
-    footer {
-      grid-template-columns: 1fr 150px;
     }
   }
 }
